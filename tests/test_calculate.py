@@ -70,6 +70,7 @@ def test_do_calculation_06():
     result = do_calculation(input)
     correct_result = 2
     assert result == correct_result
+    assert True == False
 
 
 def test_do_calculation_07():
